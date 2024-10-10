@@ -59,7 +59,8 @@ class AFF_data_test(data.Dataset):
                         self.keys.append(key)
                 load_data.close()
         load_f.close()
-                
+
+    
     def read_json(self,json_path,npz_path,idx):
         dict_1 = {}
           
