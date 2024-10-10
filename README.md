@@ -23,6 +23,7 @@ Perceiving potential "action possibilities" (i.e., affordance) regions of images
     <em> 
     </em>
 </p>
+
 **Interactive affinity.** (a) Interaction affinity refers to the contact between different parts of the human body and the local regions of a target object. (b) The interactive affinity provides rich cues to guide the model to acquire invariant features of the object's local regions interacting with the body part, thus counteracting the multiple possibilities caused by diverse interactions.
 
 ## 📖 Method <a name="3"></a> 
