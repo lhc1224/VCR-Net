@@ -34,7 +34,7 @@ Perceiving potential "action possibilities" (i.e., affordance) regions of images
     </em>
 </p>
 
-**Overview of the proposed cross-view knowledge transfer affordance grounding framework.** It mainly consists of an Affordance Invariance Mining (AIM) module and an Affordance Co-relation Preservation (ACP) strategy. The AIM module (see in Sec. 3.1) aims to obtain invariant affordance representations from diverse exocentric interactions. The ACP strategy (see in Sec. 3.2) enhances the network’s affordance perception by aligning the co-relation of the outputs of the two views.
+**Overview of the proposed VCR-Net.**  Our approach mainly consists of three parts: feature extraction, semantic-pose heuristic perception module (Sec. 3.1) and geometric-apparent alignment transfer module (Sec. 3.2).
 
 
 
