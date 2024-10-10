@@ -61,9 +61,13 @@ Download the dataset and place it in the dataset/ folder
 
 ### Test <a name="6"></a> 
 You can test the trained model by running `test.py`.
+
 Download the pretrained models from [ [Onedrive]() | [Baidu Pan]()  ] and place it in the pretrained/ folder
+
 Download the Bert model from [ [Onedrive]() | [Baidu Pan]()  ] and place it in the bert-base-cased/ folder
+
 Download the models from [ [Onedrive]() | [Baidu Pan]()  ] and place it in the save_models/ folder
+
 ```bash  
  python test.py  
 ```
