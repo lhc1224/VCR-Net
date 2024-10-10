@@ -10,7 +10,7 @@ PyTorch implementation of our VCR-Net models.
 7. [Citation](#7)
 
 ## 📎 Paper Link <a name="1"></a> 
-* Visual-geometric Collaborative Guidance for Affordance Learning  [pdf]()] 
+* Visual-geometric Collaborative Guidance for Affordance Learning  [[pdf]()] 
 > Authors:
 > Hongchen Luo, Wei Zhai, Jiao Wang, Yang Cao, Zheng-Jun Zha
 
@@ -64,3 +64,14 @@ You can test the trained model by running `test.py`.
 ```bash  
  python test.py  
 ```
+## Citation <a name="7"></a> 
+
+```
+@article{visualluo,
+  title={Visual-geometric Collaborative Guidance for Affordance Learning},
+  author={Luo, Hongchen and Zhai, Wei and Wang, Jiao and Cao, Yang and Zha, Zheng-Jun},
+  journal={arXiv},
+  year={2024}
+}
+```
+
