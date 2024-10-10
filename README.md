@@ -34,7 +34,7 @@ Perceiving potential "action possibilities" (i.e., affordance) regions of images
     </em>
 </p>
 
-**Overview of the proposed VCR-Net.**  Our approach mainly consists of three parts: feature extraction, semantic-pose heuristic perception module (Sec. 3.1) and geometric-apparent alignment transfer module (Sec. 3.2).
+
 
 
 
