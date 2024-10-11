@@ -157,7 +157,7 @@ class EncoderDecoder(nn.Module):
             self.embed_dim=512
         if self.pretrained_path!=None:
             self.backbone.init_weights(pretrained=self.pretrained_path)
-
+    #### SHP module
     def affienty_extract(self,x_1,whole_body_feature,h_o_x_1):  
         b=x_1.size(0)
         w=x_1.size()[2]
@@ -190,7 +190,7 @@ class EncoderDecoder(nn.Module):
         fuse_x_1=self.fuse_pose_text_fea(torch.cat((fuse_x_1,x_1_fuse_text),dim=1))
 
         return fuse_x_1,whole_body_feat_1,jac_loss_1[0][0]
-    
+    #### GAT module
     def pose_guide_align(self,whole_body_feat_1,x_2,whole_body_feature):
         b=x_2.size(0)
         w=x_2.size()[2]
