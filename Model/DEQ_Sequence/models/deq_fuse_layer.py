@@ -141,8 +141,7 @@ class WeightShareSelfAttention(nn.Module):
         #pdb.set_trace()
         w_heads=torch.cat(w_head_list,dim=2)
         injs=torch.cat(inj_feat_list,dim=2)
-        #w_heads = self.qkv_net(cat)      # (N x 3*d_model x seq_len)
-        #r_head_k = self.r_net(pos_emb)
+        
         
         # Input injection
         #injs=self.qkv_net_inj(u1ss)
