@@ -1,5 +1,5 @@
 # Visual-Geometric Collaborative Guidance for Affordance Learning
-PyTorch implementation of our VCR-Net models [pdf](https://arxiv.org/pdf/2410.11363). 
+PyTorch implementation of our VCR-Net models [[pdf](https://arxiv.org/pdf/2410.11363)]. 
 
 1. [Requirements](#1)
 2. [Download CAL dataset](#2)
