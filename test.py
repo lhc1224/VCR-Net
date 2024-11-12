@@ -209,8 +209,6 @@ class Trainer(object):
         model_root=self.configer.get("checkpoints","checkpoints_root")
         model_paths=os.listdir(model_root)
         for path in model_paths:
-            if path[-3:]!="pth":
-                continue
             model_path=os.path.join(model_root,path)
             load_weight=torch.load(model_path)
             load_weight_2={}
